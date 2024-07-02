@@ -16,7 +16,7 @@ for(let dpto of propiedadesVenta){
                     <p><i class="fas fa-map-marker-alt"></i> ${dpto.ubicacion}</p>
                     <p>
                     <i class="fas fa-bed"></i> ${dpto.habitaciones} Habitaciones
-                    <p><i class="fas fa-dollar-sign"></i>$${dpto.costo}</p>
+                    <p><i class="fas fa-dollar-sign"></i>${dpto.costo}</p>
                     ${fumar}
                     ${mascotas}
                 </div>
